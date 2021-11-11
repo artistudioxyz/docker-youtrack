@@ -1,0 +1,21 @@
+version: "3"
+services:
+
+  youtrack:
+    image: jetbrains/youtrack:2021.3.29124
+    container_name: jetbrains_youtrack
+    restart: always
+    networks:
+      - artistudio_network
+    volumes:
+      - ./data:/opt/youtrack/data
+      - ./conf:/opt/youtrack/conf
+      - ./logs:/opt/youtrack/logs
+      - ./backups:/opt/youtrack/backups
+    ports:
+      - 8080:8080
+
+networks:
+  artistudio_network:
+    external:
+      name: ${NETWORK_NAME}
