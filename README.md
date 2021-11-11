@@ -10,5 +10,6 @@ YouTrack is a project management tool from a company called JetBrains which make
 - Run with docker-compose `docker-compose up -d`
 
 ## References:
+* [Artistudio](https://artistudio.xyz)
 * [JetBrains Youtrack](https://www.jetbrains.com/youtrack/)
 * [JetBrains Youtrack - Documentation](https://www.jetbrains.com/youtrack/documentation/)
