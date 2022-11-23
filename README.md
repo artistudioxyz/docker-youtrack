@@ -1,4 +1,4 @@
-![YouTrack](logo.jpg)
+[![Watch the video](https://img.youtube.com/vi/oHsa4fczuNk/maxresdefault.jpg)](https://www.youtube.com/watch?v=oHsa4fczuNk)
 
 # Youtrack
 
