@@ -3,3 +3,6 @@
 
 # Configuration
 .env
+
+# Artistudio
+docker-compose-artistudio.yml

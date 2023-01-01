@@ -6,13 +6,9 @@ YouTrack is a project management tool from a company called JetBrains which make
 
 ## 📝 Installation
 - Clone this repo
-- Rename `.env-sample` to `.env`
-- Create network `docker network create artistudio_network`
 - Run with docker-compose `docker-compose up -d`
-
-## 📟 Command
-- Restart : `docker-compose down && docker-compose up -d`
+  - Restart : `docker-compose restart`
 
 ## 📚 References:
-* [JetBrains Youtrack](https://www.jetbrains.com/youtrack/)
-* [JetBrains Youtrack - Documentation](https://www.jetbrains.com/youtrack/documentation/)
+- [JetBrains Youtrack](https://www.jetbrains.com/youtrack/)
+  - [Documentation](https://www.jetbrains.com/youtrack/documentation/)
