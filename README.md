@@ -9,6 +9,9 @@ YouTrack is a project management tool from a company called JetBrains which make
 - Run with docker-compose `docker-compose up -d`
   - Restart : `docker-compose restart`
 
+Note :
+- You can configure the container by using `.env` file, use the `.env-sample` as base configuration.
+
 ## 📚 References:
 - [JetBrains Youtrack](https://www.jetbrains.com/youtrack/)
   - [Documentation](https://www.jetbrains.com/youtrack/documentation/)
